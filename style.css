@@ -2,6 +2,87 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #b2bec3;
+    font-size: 18px;
+}
+
+.box {
+    position: relative;
+    width: 550px;
+    margin: 150px auto;
+    border-radius: 10px;
+    box-shadow:  4px 3px 8px rgba(0,0,0,0.4);
+    padding: 30px;
+    background-color: white;
+    text-align: justify;
+
+}
+
+p {
+    margin: 30px auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #d63031;
+    margin: 0;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow:  0 2px 8px rgba(0,0,0,0.4);
+}
+
+img {
+    position: absolute;
+    top:-75px;
+    right: -75px;
+
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: white;
+    width: 100%; 
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook {
+    background-color:  #3b5998;
+    color: white;
+    width: 100%; 
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a.facebook:hover {
+    background-color: #2b406e;
+
+
+}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
